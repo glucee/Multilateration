@@ -1,4 +1,4 @@
-# Multilateration Python Script
+# Multilateration Script
 
 This script computes the location of a source given its distance to several stations.
 
@@ -10,7 +10,7 @@ The repo has implemented a Python version of multilateration, which is located i
 * Scipy
 * Numpy
 
-## Algorithm Description
+## Description
 
 This script implements a multilateration algorithm that, given the coordinates of a finite number of radio stations,
 and given their distances to the source (derived from the intensities of the signal they received in a previous step)
