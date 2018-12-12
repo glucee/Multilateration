@@ -7,9 +7,6 @@ computes the most probable coordinates of the station. Even if the distances com
 (in terms of pointing to a single optimal solution) the algorithm finds the coordinates that minimize the error function
 and returns the most optimal solution possible.
 
-The task: Given the implementation below in Python 3.6, replicate this sample script in C++, implementing the
-optimization algorithm that lies at the core of this script (The Nelder-Mead simplex algorithm) from scratch.
-
 
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html
 https://docs.scipy.org/doc/scipy/reference/optimize.minimize-neldermead.html#optimize-minimize-neldermead
