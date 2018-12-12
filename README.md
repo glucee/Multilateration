@@ -17,8 +17,8 @@ computes the most probable coordinates of the source. Even if the distances comp
 (in terms of pointing to a single optimal solution) the algorithm finds the coordinates that minimize the error function
 and returns the most optimal solution possible.
 
-The task: Given the implementation below in Python 3.6, replicate this sample script in C++, implementing the
-optimization algorithm that lies at the core of this script (The Nelder-Mead simplex algorithm) from scratch.
+The task: Given the implementation in Python folder in Python 3.6, replicate this sample script in C++ in CPP folder, implementing the
+optimization algorithm that lies at the core of this script (The Nelder-Mead simplex algorithm) from scratch. The CPP files should work in an embedded system such as Arduino.
 
 ## Resources
 
