@@ -24,11 +24,11 @@ optimization algorithm that lies at the core of this script (The Nelder-Mead sim
 
 ### Evaluation
 
-The final CPP script, should achieve exactly the same estimated source coordinates as the Python example script.
+* The final CPP script, should achieve exactly the same estimated source coordinates as the Python example script.
 
-The final CPP script should be able to run on an Arduino board.
+* The final CPP script should be able to run on an Arduino board.
 
-The final CPP script should be able to compute the estimated location of the source in real time for a subset of <=4 stations.
+* The final CPP script should be able to compute the estimated location of the source in real time for a subset of <=4 stations.
 
 ## Resources
 
