@@ -3,13 +3,14 @@
 This script computes the location of a source given its distance to several stations.
 
 
-## Requirements
+## Current Stage
+The repo has implemented a Python version of multilateration, which is located in Python\example.py, the requirement for that is:
 
 * Python 3.6
 * Scipy
 * Numpy
 
-## Description
+## Algorithm Description
 
 This script implements a multilateration algorithm that, given the coordinates of a finite number of radio stations,
 and given their distances to the source (derived from the intensities of the signal they received in a previous step)
@@ -17,7 +18,7 @@ computes the most probable coordinates of the source. Even if the distances comp
 (in terms of pointing to a single optimal solution) the algorithm finds the coordinates that minimize the error function
 and returns the most optimal solution possible.
 
-### The task
+### Task
 
 * **Subtask 1**: given the implementation in Python folder in Python 3.6, replicate this sample script in C++ in CPP folder,
  implementing the optimization algorithm that lies at the core of this script (The Nelder-Mead simplex algorithm in out
