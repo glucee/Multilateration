@@ -19,8 +19,15 @@ and returns the most optimal solution possible.
 
 ### The task
 
-Given the implementation in Python folder in Python 3.6, replicate this sample script in C++ in CPP folder, implementing the
-optimization algorithm that lies at the core of this script (The Nelder-Mead simplex algorithm) from scratch. The CPP files should work in an embedded system such as Arduino.
+* **Subtask 1**: given the implementation in Python folder in Python 3.6, replicate this sample script in C++ in CPP folder,
+ implementing the optimization algorithm that lies at the core of this script (The Nelder-Mead simplex algorithm in out
+ sample Python code, but any of the algorithm's supported by Scipy are ok) from scratch. The CPP files should work in 
+ an embedded system such as Arduino.
+
+* **Substask** 2: Given the predicted coordinates of the source, implement a Spherical Clipping algorithm
+that evaluates if the coordinates lie inside a sphere of radius R, and if it is outside, finds the closest point of the
+sphere to that point, to avoid having predictions outside the target spherical area.
+
 
 ### Evaluation
 
