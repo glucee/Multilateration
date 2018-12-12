@@ -28,6 +28,8 @@ The final CPP script, should achieve exactly the same estimated source coordinat
 
 The final CPP script should be able to run on an Arduino board.
 
+The final CPP script should be able to compute the estimated location of the source in real time for a subset of <=4 stations.
+
 ## Resources
 
 * https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html
